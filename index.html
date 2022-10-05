@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/421a2e0bfb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1 class="main-title">Rock Paper Scissors</h1>
+    <p class="num-rounds-text">Score 5 to Win</p>
+
+    <section class="scoreboard">
+        <div class="label player">  </div>
+        <div class="label cpu">  </div>
+
+        <p class="score user-score">0</p>
+        <span>-</span>
+        <p class="score comp-score">0</p>
+    </section>
+
+    <section class="game">
+        <p class="text-display">Choose a hand</p>
+
+        <div class="game-selections">
+            <!-- FontAwesome icons as buttons -->
+            <div class="selection" id="r"><i class="far fa-hand-rock fa-4x"></i></div>
+            <div class="selection" id="p"><i class="far fa-hand-paper fa-4x"></i></div>
+            <div class="selection" id="s"><i class="far fa-hand-scissors fa-4x"></i></div>
+        </div>
+        
+        <p class="round-selections"></p>
+        <button class="reset-game">Play Again</button>
+    </section>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
